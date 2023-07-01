@@ -1,0 +1,59 @@
+h1{
+    font-style: italics;
+    font-size: 70px;
+}
+
+.movies{
+    color:aqua;
+}
+
+.shows-title{
+    color: pink;
+}
+
+#recipe-tile{
+    text-transform: uppercase;
+}
+
+#desserts{
+    text-align: right;
+}
+/*select all elements in our HTML page*/
+*{
+    text-align: center;
+    font-family: monospace;
+}
+
+li{
+d    color: bisque;
+}
+
+.languages{
+    text-transform: uppercase;
+}
+
+body{
+    font-size: 24px;
+    font-family: monospace;
+    line-height: 1.8;
+    background-color: palegoldenrod;
+}
+
+p{
+    color: rgba(214, 93, 93, 8.918);
+    text-align: center;
+}
+
+h2{
+    color: #EE4828;
+}
+
+h1{
+    font-size: 48px;
+
+    /* rem - adjustable to browser changes
+    1rem=16px
+    2rem = 32px
+    3rem = 48px */
+    font-size: 3rem;
+}

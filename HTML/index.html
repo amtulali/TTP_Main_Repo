@@ -38,7 +38,7 @@ width=400 height=388>
 
 <!-- br element-->
 <p>Look at the break<br>new line<br> another line</p>
-<!-- hr element-->
+<!-- hr element-- they are going to put text in middle of two lines-->
 <hr>
 <p>Movies</p>
 <hr>
@@ -48,7 +48,7 @@ width=400 height=388>
     <!-- underline-->
     <u>This is underlined</u>
 
-    <!-- Strinke through element-->
+    <!-- Strike through element-->
     <p>This is text. This is <strike>striked text</strike></p>
 <!-- Big element-->
 <p>Regular text</p>
@@ -56,25 +56,46 @@ width=400 height=388>
     <small>Small text</small>
 
     <!-- Audio element-->
+    <audio src="audio/sound.wav" controls>sound</audio>
 
-<ol>
+    <!-- Video element -->
 
-</body>
-</html>
+    <video src="audio/video.mp4" controls width=300 height=300>test</video>
 
- <!--
+    <!-- I-frame element -->
 
+    <br>
+    <iframe src="test.html" width="300 height=300"></iframe>
 
+    <iframe <iframe width="560" height="315" src="https://www.youtube.com/embed/NW5Pwhkp9t0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- text area element -->
+<textarea rows="20" columns="50"></textarea>
 
-</ol><li>Red</li>
-<li>Green</li>
-<li>blue</li>
+<!-- Lists -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+    </ul>
+
+    <ul>
+        <li>Food</li>
+        <li>other</li>
+    </ul>
 
 </ol>
 
-<table>
+    <li>Red</li>
+    <li>Green</li>
+    <li>blue</li>
 
+</ol>
+
+<!-- Table -->
+<table>
+<!-- Table row element -->
     <tr>
+        <!-- Table header element -->
         <th>part 1</th>
         <th>part 2</th>
         <th>part 3</th>
@@ -82,8 +103,10 @@ width=400 height=388>
         <th>part 5</th>
         <th>part 6</th>
     </tr>
-
+<!-- Table row element -->
     <tr>
+
+        <!-- Table data element -->
         <td>Pizza</td>
         <td>$10</td>
         <td>Soda</td>
@@ -99,34 +122,102 @@ width=400 height=388>
         <td>three</td>
     </tr>
 </table>
-<br><br>
+
+<!-- Abbreviation element -->
+
+<br><br> 
 <hr>
 <abbr title="National Basketball Association">NBA</abbr>
 <abbr title= "I dont know">IDK</abbr>
 
+<!-- cite element -->
 <p> Written by:
     <cite>Shakespeare</cite> 
-
 </p>
 
+<!-- Code element -->
 <code>console.log("Hello world!");</code>
+
+<!-- divide container -->
+
+<div>
+    <h2>Section Title 1</h2>
+    <p>Section content...</p>
+</div>
 
 <div>
     <h2>Section Title 2</h2>
     <p>Section content...</p>
 </div>
 
+<!-- does the same thing as div -->
 <span>
 
     <h3>Section Title 3</h3>
     <p>Section content</p>
 </span>
 
+<!-- Navbar element -->
 <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
 </nav>
 
-input tag -->
+<div id="home">
+    <h1>home</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis ex beatae, exercitationem doloribus ipsa officiis. Quos enim vitae, ea dicta ad laborum quia repellat suscipit explicabo alias error non!</p>
 
+</div>
+
+<div id="about">
+
+    <h1>About</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, commodi quos! A ea expedita, distinctio laudantium amet commodi deleniti? Accusamus est voluptas laborum mollitia libero qui veniam provident reprehenderit laudantium!</p>
+</div>
+
+<div id="contact">
+    <h1>Contact</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At asperiores deserunt eligendi repellat soluta ad exercitationem praesentium nam iste ipsa id velit eos, incidunt et, quisquam commodi earum iusto fugit!</p>
+</div>
+<!-- lorem 30 is going to create random 30 words -->
+
+<!-- Footer tag -->
+
+<footer>
+    <p>2023, my website, all rights reserved</p>
+</footer>
+
+<!-- articles elements-->
+
+<elements>
+    <p> 2023, my website, all rights reserved</p>
+</elements>
+
+<centre>
+    <p> this is my centered element</p>
+</centre>
+
+<!-- Unicode element, creates spaces -->
+<p>&nbsp;Text here</p>
+<!-- makes a c symbol -->
+<p>&COPY;</p>
+<!-- br br creates line spaces -->
+
+<!-- Input tag -->
+<input type="text" placeholder="Enter your username">
+<input type="password" placeholder="Enter your password">
+<input type="checkbox" name="check" checked>
+
+<!-- Select element -->
+<select>
+    <!-- Option element -->
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+    <option>Option 4</option>
+</select>
+<br><br>
+
+</body>
+</html>
