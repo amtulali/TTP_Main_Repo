@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(145, 194, 236);
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    background-color: lightcoral;
+    color: beige;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px; 
+}
+
+nav{
+    background-color: black;
+    border-color: white;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: darkred;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;   
+}
+
+a:hover{
+    color: darkred;
+}
+
+.item-2{
+    background-color: rgb(145, 194, 236);
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.textbox{
+    width: 45%;
+    font-family: poppins;
+}
+
+.item-2 img{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    border: 2px solid blue;
+}
+
+.button{
+    border: 0.5px solid black;
+    color: navy;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    display: inline-block;  
+}
+
+.imageBox{
+    max-width: 10opx;
+    margin: auto;
+    text-align: center;
+}
+
+.imageBox img{
+    height: 20%;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px dotted white;
+    align-self: baseline;
+}
+audio{
+    border: 0.2px solid black;
+    margin-top: 1.5rem;
+}
+
+.img:hover{
+    background-size: 200%;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(165, 130, 130);
+    color: white;
+    text-align: center;
+  }

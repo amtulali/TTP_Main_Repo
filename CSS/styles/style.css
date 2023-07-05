@@ -1,0 +1,117 @@
+/* p{
+    color: red;
+ } */
+/* body{
+    font-size: 34px;
+}
+
+P{
+    color:blue;
+}
+
+h1, h2, h3{
+    color:green
+} */
+
+
+/* h1{
+    font-style: italics;
+    font-size: 70px;
+}
+/* for classes */
+
+/* .movies{
+    color:aqua;
+}
+
+.shows-title{
+    color: pink;
+} */ 
+
+/* for ids */
+#recipe-tile{
+    text-transform: uppercase;
+}
+
+#desserts{
+    text-align: right;
+}
+/*select all elements in our HTML page for universal elements*/
+/* *{
+    text-align: center;
+    font-family: monospace;
+}
+
+li{
+    color: bisque;
+}
+
+.languages{
+    text-transform: uppercase;
+} */
+
+/* body{
+    font-size: 24px;
+    font-family: monospace;
+    line-height: 1.8;
+    background-color: papayawhip;
+    color: rgb(84, 47, 67)
+}
+
+p{
+    color: rgba(214, 93, 93, 8.918);
+    text-align: center;
+}
+
+h2{
+    color: #83564d;
+} */
+
+/* Units and Sizes */
+h1{
+    /* font-size: 48px; 
+
+Note that px are absolute and does not change with change of browser size change. So better to use rem unit */
+    /* rem - adjustable to browser changes
+    1rem=16px
+    2rem = 32px
+    3rem = 48px */
+    font-size: 3rem;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 4px solid green;
+    border-right: 4px dotted red;
+    border-bottom: 4px solid purple;
+    font-size: 1.5 rem;
+    padding: 30px;
+    margin: 5px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif
+}
+
+main{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: left;
+    text-indent: 40px;
+    line-height: 1.5;
+    letter-spacing: .8em;
+    color: red;
+    font-weight: 600;
+    font-style: italic;
+}
