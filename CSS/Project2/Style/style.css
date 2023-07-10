@@ -1,0 +1,49 @@
+*{
+  margin: 2px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+
+}
+
+  body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  box-sizing: border-box;
+  background-image: url(https://previews.123rf.com/images/vitaliyvill/vitaliyvill1609/vitaliyvill160900015/62999358-game-background-flat-style-2d-game-application.jpg);
+  }
+  h1 {
+    width: 100%;
+    position:relative;        
+    padding: 1px 0;
+    color: black;
+    text-align: center;
+}
+
+  .form {
+    padding: 10px;
+    border-radius: 10px;
+    background: lightblue;
+    border-color: bisque;
+    border-width: 0.5px;
+    text-align: center;
+    box-shadow: 0 5px 10px;
+
+  }
+  .guessField {
+  font-size: 18px;
+  font-weight: 400;
+  height: 20px;
+  width: 90px;
+  color: #333;
+}
+.resultParas {
+    color: darkpurple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 12px;
+    text-decoration: wavy;
+    text-align: right;
+  }
