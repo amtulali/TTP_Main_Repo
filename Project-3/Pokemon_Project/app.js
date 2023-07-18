@@ -1,4 +1,4 @@
-// Import the necessary modules
+// Import the required modules
 const express = require("express");
 const morgan = require("morgan");
 const pokeBank = require("./pokeBank");
